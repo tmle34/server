@@ -11,6 +11,7 @@ app.use(cors())
 app.use(express.json())
 app.use(Routers)
 
+
 app.listen(PORT,() =>{
-    console.log(`http://localhost:${PORT}`)
+    console.log(`server started on port`,PORT)
 })
